@@ -11,8 +11,7 @@
         "Hola, necesito ayuda"
       ],
       "responses": [
-        "¡Hola! Soy el asistente virtual de la Universidad de Guayaquil. ¿En qué puedo ayudarte?",
-        "Bienvenido/a. Pregúntame sobre admisión, nivelación o carreras."
+        "¡Hola! Soy el asistente virtual de la Universidad de Guayaquil. Pregúntame sobre admisión, nivelación o carreras."
       ]
     },
     {
@@ -26,7 +25,7 @@
       ],
       "responses": [
         "¡Mucha suerte en tu proceso! Hasta pronto.",
-        "Gracias por consultar. Estoy aquí cuando me necesites."
+        "Gracias por consultar. Estoy aquí cuando me necesites. \n¡Mucha suerte en tu proceso!"
       ]
     },
     {
@@ -234,8 +233,7 @@
       "tag": "fallback",
       "patterns": [],
       "responses": [
-        "Disculpa, no entendí tu pregunta. ¿Podrías reformularla? Recuerda que puedo ayudarte con admisión, nivelación y carreras de la UG.",
-        "No estoy seguro de haber comprendido. Intenta preguntar de otra forma."
+        "Disculpa, no entendí tu pregunta. ¿Podrías reformularla? Recuerda que puedo ayudarte con admisión, nivelación y carreras de la UG."
       ]
     }
   ]
