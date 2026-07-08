@@ -167,7 +167,7 @@
       ]
     },
     {
-      "tag": "consulta_desarrollo_nivelacion",
+      "tag": "consulta_evaluacion_nivelacion",
       "patterns": [
         "¿Cómo es el curso de nivelación?",
         "¿Qué porcentaje es práctico y teórico?",
