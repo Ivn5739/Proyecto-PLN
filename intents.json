@@ -43,7 +43,7 @@
       ]
     },
     {
-      "tag": "consulta_cronograma_evaluaciones",
+      "tag": "consulta_examen_admision",
       "patterns": [
         "¿Cuándo es el examen?",
         "¿Dónde veo la fecha de mi evaluación?",
@@ -167,7 +167,7 @@
       ]
     },
     {
-      "tag": "consulta_evaluacion_nivelacion",
+      "tag": "consulta_desarrollo_nivelacion",
       "patterns": [
         "¿Cómo es el curso de nivelación?",
         "¿Qué porcentaje es práctico y teórico?",
