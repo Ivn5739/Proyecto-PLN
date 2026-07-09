@@ -57,7 +57,7 @@
         "¿Cómo sé el lugar del examen?",
         "Cronograma de evaluaciones",
         "Cronograma de exámenes",
-        "¿Cuándo me toca el examen?"
+        "¿Cuándo me toca el examen?",
         "¿Cuándo me toca la prueba?"
       ],
       "responses": [
@@ -74,7 +74,7 @@
         "¿Qué temas vienen en el examen de admisión?",
         "Contenido del examen",
         "Contenido del examen de admisión",
-        "¿El examen es difícil?"
+        "¿El examen es difícil?",
         "¿El examen es fácil?"
       ],
       "responses": [
