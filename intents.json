@@ -31,9 +31,13 @@
       "tag": "consulta_fecha_inscripcion_postulacion",
       "patterns": [
         "¿Cuándo son las inscripciones?",
-        "¿En qué fecha me toca crear la cuenta?",
-        "¿Qué día debo inscribirme según mi cédula?",
-        "Fechas de postulación",
+        "¿Cuándo son las postulaciones?",
+        "¿En qué día me toca crear la cuenta?",
+        "¿Qué día inscribirme según mi cédula?",
+        "Inscripción",
+        "Postulación",
+        "Inscripciones",
+        "Postulaciones",
         "¿Cuándo se seleccionan las carreras?",
         "Calendario de inscripción"
       ],
@@ -44,24 +48,34 @@
     {
       "tag": "consulta_examen_admision",
       "patterns": [
+        "¿Qué hora es el examen",
+        "Fecha del examen",
         "¿Cuándo es el examen?",
         "¿Dónde veo la fecha de mi evaluación?",
+        "¿Dónde veo la fecha de mi examen",
         "¿Cómo sé el lugar de la prueba?",
+        "¿Cómo sé el lugar del examen?",
         "Cronograma de evaluaciones",
-        "¿Cuándo me toca el examen de admisión?"
+        "Cronograma de exámenes",
+        "¿Cuándo me toca el examen?"
+        "¿Cuándo me toca la prueba?"
       ],
       "responses": [
         "La fecha, hora y lugar de tu evaluación aparecerán en tu cuenta del sistema institucional de admisión de la Universidad de Guayaquil. Revisa constantemente tu perfil una vez finalizada la etapa de inscripción."
       ]
     },
     {
-      "tag": "consulta_examen_admision",
+      "tag": "consulta_temario_examen_admision",
       "patterns": [
-        "¿Qué evalúa el examen de admisión?",
+        "¿Qué se evalúa en el examen?",
+        "¿En qué consiste el examen?,
         "¿En qué consiste la prueba de admisión?",
         "¿Qué temas vienen en el examen?",
+        "¿Qué temas vienen en el examen de admisión?",
+        "Contenido del examen",
         "Contenido del examen de admisión",
         "¿El examen es difícil?"
+        "¿El examen es fácil?"
       ],
       "responses": [
         "El examen de admisión de la UG evalúa las habilidades y conocimientos de los aspirantes de acuerdo con el bloque de conocimiento de las carreras seleccionadas."
@@ -74,7 +88,8 @@
         "¿Qué es el puntaje de postulación?",
         "¿Cómo se calcula el puntaje para entrar?",
         "Asignación de cupos",
-        "¿Cómo consigo un cupo en la universidad?"
+        "¿Cómo consigo un cupo en la universidad?",
+        "¿Cómo obtener un cupo?"
       ],
       "responses": [
         "La asignación de cupos es un proceso automatizado. Tu puntaje de postulación se calcula así: 50% nota del examen de admisión + 50% antecedentes académicos."
@@ -83,6 +98,8 @@
     {
       "tag": "consulta_aceptacion_cupo",
       "patterns": [
+        "Aceptación de cupo",
+        "Rechazo de cupo",
         "¿Qué es la primera aceptación?",
         "¿Cómo acepto el cupo?",
         "Aceptación de cupo",
@@ -97,6 +114,7 @@
       "tag": "consulta_segunda_tercera_postulacion",
       "patterns": [
         "¿Puedo volver a postular si no quedo?",
+        "¿Puedo volver a postular si no consigo un cupo?",
         "¿Cómo funciona la segunda postulación?",
         "Tercera postulación",
         "Segunda oportunidad para carrera",
@@ -109,10 +127,11 @@
     {
       "tag": "consulta_que_es_nivelacion",
       "patterns": [
-        "¿Qué es el curso de nivelación?",
-        "¿Para qué sirve la nivelación?",
-        "¿Obligatorio el curso de nivelación?",
-        "Nivelación de carrera"
+        "¿Qué se aprende en nivelación?",
+        "¿Cuál es la utilidad de la nivelación?",
+        "¿Es obligatoria la nivelación?",
+        "¿Cuál es la importancia de la nivelación?",
+        "¿Cuál es la necesidad de la nivelación?
       ],
       "responses": [
         "El Curso de Nivelación de Carrera es un espacio académico para fortalecer conocimientos, destrezas y habilidades fundamentales antes de iniciar la formación universitaria. Es obligatorio para todos los admitidos."
@@ -121,7 +140,7 @@
     {
       "tag": "consulta_fechas_matricula_nivelacion",
       "patterns": [
-        "¿Cuándo me matriculo al curso de nivelación?",
+        "¿Cuándo me matriculo a nivelación?",
         "Fechas de matrícula nivelación",
         "Matrícula ordinaria y extraordinaria",
         "¿Hasta cuándo puedo matricularme en nivelación?"
@@ -134,8 +153,9 @@
       "tag": "consulta_requisitos_matricula_nivelacion",
       "patterns": [
         "¿Qué documentos necesito para matricularme?",
-        "Requisitos para la nivelación",
+        "Requisitos para la matriculación",
         "Papeles para matrícula",
+        "Matricularme en nivelación",
         "¿Qué debo presentar para inscribirme en nivelación?"
       ],
       "responses": [
@@ -145,6 +165,7 @@
     {
       "tag": "consulta_retiro_nivelacion",
       "patterns": [
+        "No quiero nivelación",
         "¿Puedo retirarme de la nivelación?",
         "Retiro voluntario",
         "¿Hasta cuándo puedo salirme del curso?",
@@ -158,7 +179,7 @@
       "tag": "consulta_inicio_clases_nivelacion",
       "patterns": [
         "¿Cuándo empiezan las clases de nivelación?",
-        "Inicio de nivelación",
+        "Inicio de clases de nivelación",
         "Fecha de comienzo del curso de nivelación"
       ],
       "responses": [
@@ -171,7 +192,7 @@
         "¿Cómo es el curso de nivelación?",
         "¿Qué porcentaje es práctico y teórico?",
         "Estructura de la nivelación",
-        "¿El curso es virtual?"
+        "División del curso de nivelación"
       ],
       "responses": [
         "El curso se divide en:\n- 60%: gestión formativa, práctica y autónoma de los aprendizajes.\n- 40%: acreditación y validación de los aprendizajes."
