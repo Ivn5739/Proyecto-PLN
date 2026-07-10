@@ -1,5 +1,5 @@
 {
-  "entidades": [
+  "entities": [
     {
       "bloque salud": [
         {"nombre": "Enfermería", "semestres": 9},
