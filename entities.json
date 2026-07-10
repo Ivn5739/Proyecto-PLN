@@ -14,7 +14,7 @@
         {"nombre": "Terapia Física", "semestres": 8},
         {"nombre": "Terapia Ocupacional", "semestres": 8},
         {"nombre": "Terapia de Lenguaje", "semestres": 8}
-      ],
+      ]
     },
     {
       "bloque administrativas": [
@@ -29,7 +29,7 @@
         {"nombre": "Marketing", "semestres": 8},
         {"nombre": "Negocios Digitales", "semestres": 8},
         {"nombre": "Talento Humano", "semestres": 8}
-      ],
+      ]
     },
     {
       "bloque educacion": [
@@ -42,7 +42,7 @@
         {"nombre": "Pedagogía de los Idiomas Nacionales y Extranjeros (Inglés)", "semestres": 8},
         {"nombre": "Pedagogía en Ciencias de la Informática", "semestres": 8},
         {"nombre": "Pedagogía en Comercio y Administración", "semestres": 8}
-      ],
+      ]
     },
     { 
       "bloque ingenieria": [
@@ -57,7 +57,7 @@
         {"nombre": "Ingeniería en Ciencia de datos e Inteligencia Artificial", "semestres": 8},
         {"nombre": "Ingeniería en Logística y Transporte", "semestres": 8},
         {"nombre": "Ingeniería en Electricidad", "semestres": 9}
-      ],
+      ]
     },
     {
       "sociales": [
@@ -66,7 +66,7 @@
         {"nombre": "Sociología", "semestres": 8},
         {"nombre": "Trabajo Social", "semestres": 8},
         {"nombre": "Turismo", "semestres": 8}
-      ],
+      ]
     },
     {
       "bloque basicas": [
