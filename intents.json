@@ -5,10 +5,11 @@
       "patterns": [
         "Hola",
         "Buenos días",
+        "Buenas tardes",
+        "Buenas noches",
         "Qué tal",
         "Hey",
-        "Buenas tardes",
-        "Hola, necesito ayuda"
+        "Necesito ayuda"
       ],
       "responses": [
         "¡Hola! Soy el asistente virtual de la Universidad de Guayaquil. Pregúntame sobre admisión, nivelación o carreras."
