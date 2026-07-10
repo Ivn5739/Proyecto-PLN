@@ -48,8 +48,8 @@
     {
       "tag": "consulta_examen_admision",
       "patterns": [
-        "¿Qué hora es el examen",
-        "Fecha del examen",
+        "¿Qué hora es la prueba?",
+        "Fecha de la prueba de admisión",
         "¿Cuándo es el examen?",
         "¿Dónde veo la fecha de mi evaluación?",
         "¿Dónde veo la fecha de mi examen",
@@ -61,12 +61,13 @@
         "¿Cuándo me toca la prueba?"
       ],
       "responses": [
-        "La fecha, hora y lugar de tu evaluación aparecerán en tu cuenta del sistema institucional de admisión de la Universidad de Guayaquil. Revisa constantemente tu perfil una vez finalizada la etapa de inscripción."
+        "La fecha, hora y lugar de tu evaluación aparecerán en tu cuenta del sistema institucional de admisión de la Universidad de Guayaquil. \nRevisa constantemente tu perfil una vez finalizada la etapa de inscripción."
       ]
     },
     {
       "tag": "consulta_temario_examen_admision",
       "patterns": [
+        "¿Qué se tomará en el examen?",
         "¿Qué se evalúa en el examen?",
         "¿En qué consiste el examen?",
         "¿En qué consiste la prueba de admisión?",
@@ -78,7 +79,7 @@
         "¿El examen es fácil?"
       ],
       "responses": [
-        "El examen de admisión de la UG evalúa las habilidades y conocimientos de los aspirantes de acuerdo con el bloque de conocimiento de las carreras seleccionadas."
+        "El examen de admisión evalúa los conocimientos de los aspirantes según el bloque de conocimiento de las carreras seleccionadas."
       ]
     },
     {
@@ -92,7 +93,7 @@
         "¿Cómo obtener un cupo?"
       ],
       "responses": [
-        "La asignación de cupos es un proceso automatizado. Tu puntaje de postulación se calcula así: 50% nota del examen de admisión + 50% antecedentes académicos."
+        "La asignación de cupos es un proceso automatizado. Tu puntaje de postulación se calcula así: \n50% nota del examen de admisión + 50% antecedentes académicos."
       ]
     },
     {
@@ -107,7 +108,7 @@
         "Primera, segunda y tercera aceptación"
       ],
       "responses": [
-        "La aceptación es un acto voluntario. Una vez asignado un cupo, debes aceptarlo o rechazarlo a través de la plataforma del MINEDEC. Existen primera, segunda y tercera aceptación según las postulaciones."
+        "La aceptación es un acto voluntario que se asigna según las fechas del calendario académico. \nUna vez asignado un cupo, debes aceptarlo o rechazarlo a través de la plataforma del MINEDEC. \nLe recordamos que este proceso existe en la primera, segunda y tercera aceptación según las postulaciones."
       ]
     },
     {
@@ -121,7 +122,7 @@
         "Repostulación"
       ],
       "responses": [
-        "Sí. En la segunda y tercera postulación puedes seleccionar hasta dos opciones de carrera que aún tengan cupos, siempre que pertenezcan al mismo bloque de conocimiento. Después de cada postulación hay un periodo de aceptación."
+        "En la segunda y tercera postulación puedes seleccionar hasta dos opciones de carrera que aún tengan cupos, \nsiempre que pertenezcan al mismo bloque de conocimiento. Después de cada postulación hay un periodo de aceptación."
       ]
     },
     {
@@ -134,7 +135,7 @@
         "¿Cuál es la necesidad de la nivelación?"
       ],
       "responses": [
-        "El Curso de Nivelación de Carrera es un espacio académico para fortalecer conocimientos, destrezas y habilidades fundamentales antes de iniciar la formación universitaria. Es obligatorio para todos los admitidos."
+        "El Curso de Nivelación de Carrera es obligatorio para todos los estudiantes admitidos. \nEl curso fortalecerá conocimientos, destrezas y habilidades fundamentales antes de iniciar la formación universitaria."
       ]
     },
     {
