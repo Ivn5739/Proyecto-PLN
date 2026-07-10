@@ -68,6 +68,7 @@
     {
       "tag": "consulta_temario_examen_admision",
       "patterns": [
+        "Cuáles son los temarios?",
         "¿Qué se tomará en el examen?",
         "¿Qué se evalúa en el examen?",
         "¿En qué consiste el examen?",
@@ -168,7 +169,8 @@
         "¿Qué documentos necesito para matricularme?",
         "Requisitos matrícula",
         "Papeles para matrícula",
-        "Presentar para matricularme"
+        "Presentar para matricularme",
+        "¿Qué necesito para matricularme?"
       ],
       "responses": [
         "Requisitos:\n- Foto JPG (200-400 kb, fondo blanco, tamaño carné, a color)\n- Cédula de ciudadanía o pasaporte actualizados\n- Certificado de votación (si aplica)\n- Título de bachiller reconocido por el Ministerio de Educación"
