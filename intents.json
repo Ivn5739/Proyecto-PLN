@@ -231,6 +231,9 @@
     {
       "tag": "consulta_plataformas_virtuales",
       "patterns": [
+        "¿Cómo entro al moodle?",
+        "¿Cómo entro al zoom?",
+        "¿Cuando entrar al zoom?",
         "¿Qué plataformas se usan en la nivelación?",
         "Campus virtual",
         "Zoom para clases",
