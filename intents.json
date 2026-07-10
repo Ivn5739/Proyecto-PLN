@@ -233,7 +233,8 @@
         "Campus virtual",
         "Zoom para clases",
         "Aula virtual",
-        "¿Dónde veo las clases virtuales?"
+        "¿Dónde veo las clases virtuales?",
+        "¿Qué recursos utiliza la universidad de guayaquil?"
       ],
       "responses": [
         "Se utilizan:\n- Campus Virtual (Moodle): para actividades y materiales.\n- Aula Virtual (Zoom): para clases sincrónicas. Accede desde el SIUG: Académico → Estudiante → Horarios → Clases Virtuales."
