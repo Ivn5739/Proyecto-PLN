@@ -50,7 +50,7 @@
       "tag": "consulta_examen_admision",
       "patterns": [
         "¿A qué hora es el examen?",
-        "Fecha de la prueba de admisión",
+        "Fecha del examen de admisión",
         "¿Cuándo se realizará el examen?",
         "¿Dónde veo la fecha de mi evaluación?",
         "¿Dónde veo la fecha de mi examen",
@@ -77,7 +77,9 @@
         "Contenido de la prueba de admisión",
         "Contenido del examen de admisión",
         "¿Es difícil el examen de admision?",
-        "¿El examen es fácil?"
+        "¿El examen es fácil?",
+        "Preguntas del examen de admision",
+        "Temarios del examen de admision"
       ],
       "responses": [
         "El examen de admisión evaluará los conocimientos de los aspirantes según el bloque de conocimiento de las carreras seleccionadas."
@@ -130,10 +132,13 @@
       "tag": "consulta_que_es_nivelacion",
       "patterns": [
         "¿Qué se aprende en nivelación?",
+        "¿Qué se estudia en nivelación?",
+        "¿Qué se hace en nivelación?,
         "¿Cuál es la utilidad de la nivelación?",
         "¿Es obligatoria la nivelación?",
         "¿Cuál es la importancia de la nivelación?",
-        "¿Cuál es la necesidad de la nivelación?"
+        "¿Cuál es la necesidad de la nivelación?",
+        "¿Por qué hacer nivelación?
       ],
       "responses": [
         "El Curso de Nivelación de Carrera es obligatorio para todos los estudiantes admitidos. \nEl curso fortalecerá conocimientos, destrezas y habilidades fundamentales antes de iniciar la formación universitaria."
@@ -142,10 +147,15 @@
     {
       "tag": "consulta_fechas_matricula_nivelacion",
       "patterns": [
-        "¿Cuándo me matriculo a nivelación?",
-        "Fechas de matrícula nivelación",
-        "Matrícula ordinaria y extraordinaria",
-        "¿Hasta cuándo puedo matricularme en nivelación?"
+        "¿Cuando son las fechas de matriculaciones?",
+        "¿Cuando son las matriculaciones?",
+        "¿Cuándo me matriculo?",
+        "Fechas de matrícula",
+        "Matrícula ordinaria",
+        "Matrícula extraordinaria",
+        "¿Hasta cuándo puedo matricularme?",
+        "¿Cuando matricularme?"
+        "Matricularme en nivelación",
       ],
       "responses": [
         "Matrícula ordinaria online: desde el 18 al 24 de mayo de 2026.\nMatrícula extraordinaria online: desde el 25 al 31 de mayo de 2026."
@@ -154,11 +164,13 @@
     {
       "tag": "consulta_requisitos_matricula_nivelacion",
       "patterns": [
+        "Cumplir requisitos de matriculación",
+        "Cumplir requisitos",
+        "Documentos para matricularme",
         "¿Qué documentos necesito para matricularme?",
-        "Requisitos para la matriculación",
+        "Requisitos para matriculación",
         "Papeles para matrícula",
-        "Matricularme en nivelación",
-        "¿Qué debo presentar para inscribirme en nivelación?"
+        "Presentar para matricularme"
       ],
       "responses": [
         "Requisitos:\n- Foto JPG (200-400 kb, fondo blanco, tamaño carné, a color)\n- Cédula de ciudadanía o pasaporte actualizados\n- Certificado de votación (si aplica)\n- Título de bachiller reconocido por el Ministerio de Educación"
@@ -167,9 +179,12 @@
     {
       "tag": "consulta_retiro_nivelacion",
       "patterns": [
-        "No quiero nivelación",
+        "Retirarme de nivelación",
+        "Deseo salir de nivelación",
         "¿Puedo retirarme de la nivelación?",
         "Retiro voluntario",
+        "Retiro por caso fortuito",
+        "Retiro por caso fortuito",
         "¿Hasta cuándo puedo salirme del curso?",
         "Cancelar nivelación"
       ],
@@ -181,6 +196,7 @@
       "tag": "consulta_inicio_clases_nivelacion",
       "patterns": [
         "¿Cuándo empiezan las clases de nivelación?",
+        "¿Cuándo comienzan las clases de nivelación?",
         "Inicio de clases de nivelación",
         "Fecha de comienzo del curso de nivelación"
       ],
@@ -193,7 +209,7 @@
       "patterns": [
         "¿Cómo es el curso de nivelación?",
         "¿Qué porcentaje es práctico y teórico?",
-        "Estructura de la nivelación",
+        "Estructura del curso de nivelación",
         "División del curso de nivelación"
       ],
       "responses": [
@@ -205,6 +221,7 @@
       "patterns": [
         "¿Cómo se aprueba la nivelación?",
         "Nota mínima para pasar",
+        "Nota mínima para aprobar",
         "¿Cuánto necesito para aprobar el curso?",
         "Asistencia requerida en nivelación"
       ],
