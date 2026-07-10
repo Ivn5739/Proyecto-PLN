@@ -48,7 +48,7 @@
     {
       "tag": "consulta_examen_admision",
       "patterns": [
-        "¿Qué hora es la prueba?",
+        "¿A qué hora es el examen?",
         "Fecha de la prueba de admisión",
         "¿Cuándo se realizará el examen?",
         "¿Dónde veo la fecha de mi evaluación?",
