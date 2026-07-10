@@ -1,66 +1,81 @@
 {
-  "bloques": {
-    "salud": "Ciencias de la Salud",
-    "administrativas": "Ciencias Administrativas",
-    "educacion": "Ciencias de la Educación",
-    "ingenieria": "Ingeniería, Industria y Construcción",
-    "sociales": "Ciencias Sociales, Jurisprudencia y Comunicación",
-    "basicas": "Ciencias Básicas, Ambientales y Agropecuarias"
-  },
-  "carreras": [
-    {"nombre": "Enfermería", "bloque": "salud", "semestres": 9},
-    {"nombre": "Laboratorio Clínico", "bloque": "salud", "semestres": 9},
-    {"nombre": "Medicina", "bloque": "salud", "semestres": 10},
-    {"nombre": "Nutrición y Dietética", "bloque": "salud", "semestres": 8},
-    {"nombre": "Obstetricia", "bloque": "salud", "semestres": 9},
-    {"nombre": "Odontología", "bloque": "salud", "semestres": 10},
-    {"nombre": "Optometría", "bloque": "salud", "semestres": 9},
-    {"nombre": "Psicología", "bloque": "salud", "semestres": 8},
-    {"nombre": "Radiología e Imagenología", "bloque": "salud", "semestres": 8},
-    {"nombre": "Terapia Física", "bloque": "salud", "semestres": 8},
-    {"nombre": "Terapia Ocupacional", "bloque": "salud", "semestres": 8},
-    {"nombre": "Terapia de Lenguaje", "bloque": "salud", "semestres": 8},
-    {"nombre": "Administración de Empresas", "bloque": "administrativas", "semestres": 8},
-    {"nombre": "Comercio Exterior", "bloque": "administrativas", "semestres": 8},
-    {"nombre": "Contaduría Pública Autorizada", "bloque": "administrativas", "semestres": 8},
-    {"nombre": "Economía", "bloque": "administrativas", "semestres": 8},
-    {"nombre": "Finanzas", "bloque": "administrativas", "semestres": 8},
-    {"nombre": "Gastronomía", "bloque": "administrativas", "semestres": 8},
-    {"nombre": "Gestión de la Información Gerencial", "bloque": "administrativas", "semestres": 8},
-    {"nombre": "Hotelería y Turismo", "bloque": "administrativas", "semestres": 8},
-    {"nombre": "Marketing", "bloque": "administrativas", "semestres": 8},
-    {"nombre": "Negocios Digitales", "bloque": "administrativas", "semestres": 8},
-    {"nombre": "Talento Humano", "bloque": "administrativas", "semestres": 8},
-    {"nombre": "Educación Básica", "bloque": "educacion", "semestres": 8},
-    {"nombre": "Educación Inicial", "bloque": "educacion", "semestres": 8},
-    {"nombre": "Pedagogía de las Ciencias Experimentales (Matemáticas y Física)", "bloque": "educacion", "semestres": 8},
-    {"nombre": "Pedagogía en Químico Biológicas", "bloque": "educacion", "semestres": 8},
-    {"nombre": "Pedagogía de la Historia y las Ciencias Sociales", "bloque": "educacion", "semestres": 8},
-    {"nombre": "Pedagogía de la Lengua y la Literatura", "bloque": "educacion", "semestres": 8},
-    {"nombre": "Pedagogía de los Idiomas Nacionales y Extranjeros (Inglés)", "bloque": "educacion", "semestres": 8},
-    {"nombre": "Pedagogía en Ciencias de la Informática", "bloque": "educacion", "semestres": 8},
-    {"nombre": "Pedagogía en Comercio y Administración", "bloque": "educacion", "semestres": 8},
-    {"nombre": "Arquitectura", "bloque": "ingenieria", "semestres": 9},
-    {"nombre": "Ingeniería Civil", "bloque": "ingenieria", "semestres": 9},
-    {"nombre": "Ingeniería en Alimentos", "bloque": "ingenieria", "semestres": 8},
-    {"nombre": "Ingeniería en Sistemas Computacionales", "bloque": "ingenieria", "semestres": 8},
-    {"nombre": "Ingeniería Industrial", "bloque": "ingenieria", "semestres": 9},
-    {"nombre": "Ingeniería Química", "bloque": "ingenieria", "semestres": 9},
-    {"nombre": "Ingeniería en Telemática", "bloque": "ingenieria", "semestres": 8},
-    {"nombre": "Ingeniería en Software", "bloque": "ingenieria", "semestres": 8},
-    {"nombre": "Ingeniería en Ciencia de datos e Inteligencia Artificial", "bloque": "ingenieria", "semestres": 8},
-    {"nombre": "Ingeniería en Logística y Transporte", "bloque": "ingenieria", "semestres": 8},
-    {"nombre": "Ingeniería en Electricidad", "bloque": "ingenieria", "semestres": 9},
-    {"nombre": "Comunicación Social", "bloque": "sociales", "semestres": 8},
-    {"nombre": "Derecho", "bloque": "sociales", "semestres": 9},
-    {"nombre": "Sociología", "bloque": "sociales", "semestres": 8},
-    {"nombre": "Trabajo Social", "bloque": "sociales", "semestres": 8},
-    {"nombre": "Turismo", "bloque": "sociales", "semestres": 8},
-    {"nombre": "Producción Audiovisual", "bloque": "sociales", "semestres": 8},
-    {"nombre": "Biología", "bloque": "basicas", "semestres": 8},
-    {"nombre": "Gestión Ambiental", "bloque": "basicas", "semestres": 8},
-    {"nombre": "Ingeniería Agronómica", "bloque": "basicas", "semestres": 9},
-    {"nombre": "Ingeniería en Recursos Naturales Renovables", "bloque": "basicas", "semestres": 8},
-    {"nombre": "Medicina Veterinaria y Zootecnia", "bloque": "basicas", "semestres": 9}
+  "entidades": [
+    {
+      "bloque salud": [
+        {"nombre": "Enfermería", "semestres": 9},
+        {"nombre": "Laboratorio Clínico", "semestres": 9},
+        {"nombre": "Medicina", "semestres": 10},
+        {"nombre": "Nutrición y Dietética", "semestres": 8},
+        {"nombre": "Obstetricia", "semestres": 9},
+        {"nombre": "Odontología", "semestres": 10},
+        {"nombre": "Optometría", "semestres": 9},
+        {"nombre": "Psicología", "semestres": 8},
+        {"nombre": "Radiología e Imagenología", "semestres": 8},
+        {"nombre": "Terapia Física", "semestres": 8},
+        {"nombre": "Terapia Ocupacional", "semestres": 8},
+        {"nombre": "Terapia de Lenguaje", "semestres": 8}
+      ],
+    },
+    {
+      "bloque administrativas": [
+        {"nombre": "Administración de Empresas", "semestres": 8},
+        {"nombre": "Comercio Exterior", "semestres": 8},
+        {"nombre": "Contaduría Pública Autorizada", "semestres": 8},
+        {"nombre": "Economía", "semestres": 8},
+        {"nombre": "Finanzas", "semestres": 8},
+        {"nombre": "Gastronomía", "semestres": 8},
+        {"nombre": "Gestión de la Información Gerencial", "semestres": 8},
+        {"nombre": "Hotelería y Turismo", "semestres": 8},
+        {"nombre": "Marketing", "semestres": 8},
+        {"nombre": "Negocios Digitales", "semestres": 8},
+        {"nombre": "Talento Humano", "semestres": 8}
+      ],
+    },
+    {
+      "bloque educacion": [
+        {"nombre": "Educación Básica", "semestres": 8},
+        {"nombre": "Educación Inicial", "semestres": 8},
+        {"nombre": "Pedagogía de las Ciencias Experimentales (Matemáticas y Física)", "semestres": 8},
+        {"nombre": "Pedagogía en Químico Biológicas", "semestres": 8},
+        {"nombre": "Pedagogía de la Historia y las Ciencias Sociales", "semestres": 8},
+        {"nombre": "Pedagogía de la Lengua y la Literatura", "semestres": 8},
+        {"nombre": "Pedagogía de los Idiomas Nacionales y Extranjeros (Inglés)", "semestres": 8},
+        {"nombre": "Pedagogía en Ciencias de la Informática", "semestres": 8},
+        {"nombre": "Pedagogía en Comercio y Administración", "semestres": 8}
+      ],
+    },
+    { 
+      "bloque ingenieria": [
+        {"nombre": "Arquitectura", "semestres": 9},
+        {"nombre": "Ingeniería Civil", "semestres": 9},
+        {"nombre": "Ingeniería en Alimentos", "semestres": 8},
+        {"nombre": "Ingeniería en Sistemas Computacionales", "semestres": 8},
+        {"nombre": "Ingeniería Industrial", "semestres": 9},
+        {"nombre": "Ingeniería Química", "semestres": 9},
+        {"nombre": "Ingeniería en Telemática", "semestres": 8},
+        {"nombre": "Ingeniería en Software", "semestres": 8},
+        {"nombre": "Ingeniería en Ciencia de datos e Inteligencia Artificial", "semestres": 8},
+        {"nombre": "Ingeniería en Logística y Transporte", "semestres": 8},
+        {"nombre": "Ingeniería en Electricidad", "semestres": 9}
+      ],
+    },
+    {
+      "sociales": [
+        {"nombre": "Comunicación Social", "semestres": 8},
+        {"nombre": "Derecho", "semestres": 9},
+        {"nombre": "Sociología", "semestres": 8},
+        {"nombre": "Trabajo Social", "semestres": 8},
+        {"nombre": "Turismo", "semestres": 8}
+      ],
+    },
+    {
+      "bloque basicas": [
+        {"nombre": "Biología", "semestres": 8},
+        {"nombre": "Gestión Ambiental", "semestres": 8},
+        {"nombre": "Ingeniería Agronómica", "semestres": 9},
+        {"nombre": "Ingeniería en Recursos Naturales Renovables", "semestres": 8},
+        {"nombre": "Medicina Veterinaria y Zootecnia", "semestres": 9}
+      ]
+    }
   ]
 }
