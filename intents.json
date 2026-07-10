@@ -147,14 +147,11 @@
     {
       "tag": "consulta_fechas_matricula_nivelacion",
       "patterns": [
-        "¿Cuando son las fechas de matriculaciones?",
         "¿Cuando son las matriculaciones?",
         "¿Cuándo me matriculo?",
         "Fechas de matrícula",
-        "Matrícula ordinaria",
-        "Matrícula extraordinaria",
+        "Matrícula ordinaria y extraordinaria",
         "¿Hasta cuándo puedo matricularme?",
-        "¿Cuando matricularme?",
         "Matricularme en nivelación"
       ],
       "responses": [
