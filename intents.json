@@ -46,7 +46,8 @@
     {
       "tag": "consulta_fecha_inscripcion_postulacion",
       "patterns": [
-        "Mi numero de cédula es 0928656735",
+        "¿Cuando debo inscribirme si mi cédula es 0928656735?",
+        "¿Si mi cédula es 0928656735 cuando debo postularme?",
         "¿Según mi cédula cuando debo postularme?",
         "¿Según mi cédula cuando debo inscribirme?",
         "Las inscripciones en ",
