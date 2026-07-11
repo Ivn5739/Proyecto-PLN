@@ -29,6 +29,21 @@
       ]
     },
     {
+      "tag": "identidad_bot",
+      "patterns": [
+        "quien eres",
+        "como te llamas",
+        "eres un robot",
+        "eres una persona real",
+        "que eres tu",
+        "con quien hablo",
+        "eres humano"
+      ],
+      "responses": [
+            "Soy un asistente virtual basado en reglas de PLN. \nEstoy aqui para ayudarte con dudas sobre admision, nivelacion y la UG en general."
+         ]
+    },
+    {
       "tag": "consulta_fecha_inscripcion_postulacion",
       "patterns": [
         "¿Cuándo son las inscripciones?",
@@ -248,6 +263,22 @@
         "Se utilizan:\n- Campus Virtual (Moodle): para actividades y materiales.\n- Aula Virtual (Zoom): para clases sincrónicas. Accede desde el SIUG: Académico → Estudiante → Horarios → Clases Virtuales."
       ]
     },
+    {
+      "tag":"consultar_canales_contacto",
+      "patterns":[
+        "donde puedo preguntar mis dudas",
+        "hay algun telegram de admision",
+        "como contacto a la coordinacion de admision",
+        "redes sociales oficiales de admision UG",
+        "existe un canal de telegram para dudas",
+        "donde sigo las novedades de admision",
+        "como me comunico con la coordinacion de admision",
+        "redes oficiales para consultas"
+      ],
+      "responses": [
+            "Puedes seguir los canales oficiales: Facebook 'Admision UG' e Instagram 'Coordinacion de Admision y Nivelacion' para comunicados. \nTambién puedes revisar el portal https://admision.ug.edu.ec/admision/."
+         ]
+      },
     {
       "tag": "consulta_carreras_bloque",
       "patterns": [
